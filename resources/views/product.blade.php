@@ -2,19 +2,18 @@
 <html>
 
 <head>
-    <title>{{ __('product.title') }}</title>
+    <title>{{ __('messages.title') }}</title>
 </head>
 
 <body>
-    <h1>{{ __('product.title') }}</h1>
-    <p>{{ __('product.description') }}</p>
-
-    <p><strong>{{ __('product.price') }}</strong>: Rp 50.000</p>
+    <h1>{{ __('messages.title') }}</h1>
+    <p>{{ __('messages.description') }}</p>
+    <p><strong>{{ __('messages.price') }}</strong>: Rp 50.000</p>
 
     <hr>
     <p>Pilih Bahasa:</p>
-    <a href="{{ route('product', ['lang' => 'id']) }}">🇮🇩 Bahasa Indonesia</a> |
-    <a href="{{ route('product', ['lang' => 'en']) }}">🇬🇧 English</a>
+    <a href="/id/product">Bahasa Indonesia</a> |
+    <a href="/en/product">English</a>
 </body>
 
 </html>
